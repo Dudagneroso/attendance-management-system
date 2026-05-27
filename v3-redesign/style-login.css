@@ -1,0 +1,76 @@
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    
+}
+
+.login-container{
+
+ 	 height: 100vh;	
+     width: 40vh;
+     align-items: center;
+	 justify-content: center;
+     background-color: #d4d4d4;
+             
+}
+
+
+.form-group{
+
+    float: left;
+     margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+    
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #ebebeb;
+  border-radius: 4px;
+}
+
+ 
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+#botao-login{
+    background-color: rgb(207, 103, 17);
+    width: 150px;
+    height: 60px;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(241, 237, 233);
+}
+
+#botao-login:hover{
+    background-color: rgb(202, 94, 5);
+    width: 150px;
+    height: 60px;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.486);
+}
+
+#img-logo{
+   margin-right: 10%;
+   margin-left: 10%;
+}
+
+.logo-login{
+    max-width:740px; max-height:740px; width: 700px; height: 700px;
+   
+}
+

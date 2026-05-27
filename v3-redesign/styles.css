@@ -1,0 +1,95 @@
+
+body {
+    background-color: #f8f8f8;
+}
+
+#student-info {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+#student-info {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.student-name {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Gill Sans, sans-serif;
+}
+
+.student-id {
+    font-size: 14px;
+    font-family: Gill Sans, sans-serif;
+}
+
+#table-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#profile {
+    position: relative;
+    text-align: right;
+    padding: 15px;
+    /*background-color: rgb(207, 103, 17);*/
+}
+
+#profile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#profile span {
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#sair-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+}
+
+th {
+    background-color: #d4d4d4;
+    font-family: Gill Sans, sans-serif;
+}
+
+h2 {
+    font-family: Gill Sans, sans-serif;
+}
+
+#img-sair {
+    align-content: left;
+}
+
+table {
+    width: 100vw;
+    margin: 0;
+    padding:0;
+}
+
+#dados-aluno span{
+    display:block;
+    text-align:left;
+    margin-right: 1600px;
+}
+
+
