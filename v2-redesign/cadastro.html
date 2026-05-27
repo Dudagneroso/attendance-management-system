@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style-cadastro.css" media="screen" />
+	<title> Ficha de Cadastro </title>
+
+</head>
+
+<body>
+<h1>Ficha de Cadastro</h1>
+
+<div class="selecionar">
+<p>Cadastro de:</p>
+<div class="tipo-cadastro">
+    <input type="radio" name="tipo" value="aluno" class="aluno"/> <p>Aluno</p>
+    <input type="radio" name="tipo" value="professor" class="professor"/> <p>Professor</p>
+</div>
+</div>
+  
+        <div class="tabela">
+            <div class="coluna1">
+            <form method="post" id="form1">
+                <div class="form0">
+                  <label for="nome">Nome Completo (sem abrev)*</label>
+                  <input type="text" id="nome" readonly />
+                </div>
+
+                <div class="form0">
+                  <label for="cpf">CPF*</label>
+                  <input type="number" id="cpf" required />
+                </div>
+
+                <div class="form0">
+                    <label>Selecione o Curso</a>
+                        <select name="curso">
+                            <option value="cuidador">Cuidador de Idosos</option>
+                            <option value="banho">Banho e Tosa</option>
+                        </select>
+                </div>
+
+                <div class="form0">
+                    <label for="telefone">Número de Telefone*</label>
+                    <input type="tel" id="telefone" required />
+                </div>
+
+                <div class="form0">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" required />
+                </div>
+
+            </div>
+
+            <div class="coluna2">
+                
+                <div class="form0">
+                  <label for="cep">CEP*</label>
+                  <input type="number" id="cep" required />
+                </div>
+
+                <div class="form0">
+                    <label for="endereco">Endereço*</label>
+                    <input type="text" id="endereco" required />
+                </div>
+
+                <div class="form0">
+                    <label for="senha">Senha do Sistema*</label>
+                    <input type="password" id="senha" required />
+                </div>
+
+                <div class="form0">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento" />
+                </div>
+
+            </div>
+
+            <div class="coluna3">
+
+                <div class="form0">
+                    <label for="licenciatura">Licenciatura/Pedagogia</label>
+                    <input type="text" id="licenciatura" />
+                </div>
+
+                <div class="form0">
+                    <label for="descricao">Descrição</label>
+                    <textarea name="descricao"></textarea>
+                </div>
+
+                <div class="form0">
+                    <label>Selecione a Turma*</a>
+                        <select name="curso">
+                            <option value="cuidador">Terça e Quinta das 19h as 21h</option>
+                            <option value="banho">Segunda e Quarta das 19h as 21h</option>
+                        </select>
+                </div>
+
+                <input type="submit" name="enviar" value="Enviar" class="enviar">
+                </form>
+            </div>
+        </div>
+</body>
+</html>

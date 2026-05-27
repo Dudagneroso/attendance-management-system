@@ -1,0 +1,168 @@
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/stylesheet.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Turmas</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar {
+            width: 228px;
+            background-color: #f39c12;
+            height: 100vh;
+            padding: 20px;
+            position: fixed;
+        }
+
+        .sidebar p {
+            margin: 20px 0;
+            color: #aaa;
+            cursor: pointer;
+        }
+
+        .main-content {
+            margin-left: 260px;
+            padding: 20px;
+        }
+        
+        .sidebar .button {
+            background-color: #000000;
+            border: none;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: left;
+            text-decoration: none;
+            display: flex;
+            margin: 10px 0;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .sidebar .button:hover {
+            background-color: #787878;
+        }
+        
+
+        .main-content h1 {
+            color: #ff8c00;
+            margin-bottom: 20px;
+        }
+
+        .course {
+            background-color: #000000;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .course h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .course table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+
+        .course th, .course td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .course th {
+            background-color: #3c3c3c;
+        }
+
+        .course td {
+            background-color: #2b2b2b;
+            border-bottom: 1px solid #3c3c3c;
+        }
+
+        .course .edit-icon {
+            color: #ff8c00;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <link rel="stylesheet" type="text/css" href="style/stylesheet.css" media="screen" />
+    <div class="sidebar">
+        <div>
+            <button class="button">Ver minhas turmas e alunos</button>
+            <button class="button">Lançar tema de aula</button>
+        
+        </div>
+    </div>
+    <div class="main-content">
+        <h1>Consulta de Turmas</h1>
+        
+        <div class="course">
+            <h2>Aux. Veterinário</h2>
+            <p>Sábados das 08:00 às 12:00</p>
+        </div>
+
+        <div class="course">
+            <h2>Banho e Tosa</h2>
+            <p>Segunda e Quarta das 14:00 às 18:00</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Faltas</th>
+                        <th>Matrícula</th>
+                        <th>Nome</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12</td>
+                        <td>12387</td>
+                        <td>Paulo Silva</td>
+                        <td><span class="edit-icon">✏️</span></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>45323</td>
+                        <td>Alice Santos</td>
+                        <td><span class="edit-icon">✏️</span></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>74910</td>
+                        <td>João Paulo Pereira</td>
+                        <td><span class="edit-icon">✏️</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>21686</td>
+                        <td>Helena Oliveira</td>
+                        <td><span class="edit-icon">✏️</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>14507</td>
+                        <td>Sílvio Rosa</td>
+                        <td><span class="edit-icon">✏️</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="course">
+            <h2>Massoterapia</h2>
+            <p>Quarta e Quinta das 11:00 às 15:00</p>
+        </div>
+    </div>
+</body>
+</html>
