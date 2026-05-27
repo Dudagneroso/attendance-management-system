@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info p {
+    margin: 0;
+    color: #888888;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.table-section {
+    margin-bottom: 40px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.table-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.table-header select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead th {
+    background-color: #333333;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #444444;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tfoot {
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 100px;
+}
